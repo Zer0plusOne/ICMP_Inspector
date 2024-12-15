@@ -18,8 +18,8 @@
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/zer0plusone/ICMPInspector.git
-   cd ICMPInspector
+   git clone https://github.com/zer0plusone/ICMP_Inspector.git
+   cd ICMPI_nspector
    ```
 2. Install the required dependencies:
    ```bash
