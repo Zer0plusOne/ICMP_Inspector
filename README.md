@@ -3,7 +3,7 @@
 **ICMP_Inspector** is a lightweight Python script designed to capture and analyze incoming ICMP packets on the `eth0` interface designed specifically to extract hidden data sent via the ICMP protocol.
 
 > [!NOTE]  
-> **Have in mind content can be exfiltrated from a machine via "sending pings" to other machines because icmp protocol tough ping can send up to 4bytes of data. This program specializes in retrieving this info and show it like it was in the host before the exfil.**
+> **Have in mind that content can be exfiltrated from a machine via "sending pings" to other machines because icmp protocol tough ping can send up to 4bytes of data. This program specializes in retrieving this info and show it like it was in the host before the exfil.**
 
 ## Features
 - Captures incoming ICMP packets in real-time.
@@ -32,7 +32,7 @@ Run the script with root privileges to capture packets:
 sudo python3 ICMP_dataExfilter.py
 ```
 
-### Example of ssage
+### Example of usage
 
 Lets say you tried to send the archive /etc/hosts from a linux machine to your own machine.
 
